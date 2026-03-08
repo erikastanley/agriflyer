@@ -252,12 +252,12 @@ nav.scrolled .nav-logo .logo-scrolled { display: block; }
   background: url('../images/hero-aerial.png') center/cover no-repeat;
 }
 
-/* Gradient overlay — left black to right #173D40 at 70% opacity */
+/* Gradient overlay — left teal to right green at 70% opacity */
 .hero-photo::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(23, 61, 64, 0.7) 100%);
+  background: linear-gradient(to right, rgba(23, 61, 64, 0.7) 0%, rgba(69, 115, 78, 0.7) 100%);
 }
 
 .hero-grain {
